@@ -4,15 +4,7 @@
 
 #### Package lifecycles & APIs <a id="api"></a>
 
-This page describes the typical lifecycle on an R package. Knowing where a package is in its lifecycle is particularly important for understanding how the API will change over time. The API \(short for application programming interface\) is the set of functions \(and their arguments\) that defines how you interact with the package.
-
-There are three ways an API can change:
-
-1. It can **grow** when a function or argument is added.
-2. It can **shrink** when a function or argument is removed.
-3. It can **change** when the meaning of an argument changes, or the type of data returned from a function changes.
-
-Changing or shrinking the API will **break** it: code that previously worked will no any longer. \(Sometimes code will break even if the API doesn’t; for example, you might have accidentally depended on behaviour that the author thought was a bug\).
+This page describes the typical lifecycle of R package and functions at CFgO. Knowing where a package is in its lifecycle is particularly important for understanding how the API will change over time. The API \(short for application programming interface\) is the set of functions \(and their arguments\) that defines how you interact with the package.
 
 #### Experimental![](.gitbook/assets/lifecycle-experimental.svg) <a id="experimental"></a>
 
@@ -41,5 +33,5 @@ Along with badge, add `rlang::warning()` to the function to remind all users of 
 
 Packages / Functions which contain bugs, serve questionable purposes, contain slow / unexpected / unneccesarily complex code fragments or generate any further kind of unexpected behaviour.
 
-Add `rlang::warning()` to the function and generate `GitHub Issue` to remind and call attention to issue.
+Add `rlang::warning()` to the function and generate `GitHub Issue` to remind and call attention to this issue.
 
