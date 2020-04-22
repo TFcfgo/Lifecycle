@@ -16,11 +16,7 @@ Changing or shrinking the API will **break** it: code that previously worked wil
 
 #### Experimental![](https://img.shields.io/badge/lifecycle-experimental-orange.svg) <a id="experimental"></a>
 
-An experimental package is in the very early stages of development. The API will be changing frequently as we rapidly iterate and explore variations in search of the best fit. Experimental packages will make API breaking changes without deprecation, so you are generally best off waiting until the package is more mature before you use it. Experimental packages will not be released on CRAN
-
-#### Maturing![](https://img.shields.io/badge/lifecycle-maturing-blue.svg) <a id="maturing"></a>
-
-The API of a maturing package has been roughed out, but finer details likely to change. Once released to CRAN, we will strive to maintain backward compatibility, but the package needs wider usage in order to get more feedback and find the optimal API.
+An experimental package or function is in the very early stages of development. The API will be changing frequently as we rapidly iterate and explore variations in search of the best fit. Experimental packages / functions are set up quickly without finished testing and documenting frameworks.
 
 #### Stable![](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg) <a id="stable"></a>
 
@@ -28,11 +24,7 @@ In a stable package, we are largely happy with the API, and major changes are un
 
 If API breaking change are needed, they will occur gradually. To begin with, the function or argument will be deprecated; it will continue to work but will emit an message informing you of the change. Next, typically after at least a year, the message will be transformed to an error.
 
-#### Superseded![](https://img.shields.io/badge/lifecycle-superseded-blue.svg) <a id="superseded"></a>
-
-A superseded package is no longer under active development, and a known better alternative is available. We will only make the necessary changes to ensure that superseded packages remain on CRAN. No new features will be added, and only the most critical of bugs will be fixed.
-
-#### Archived![](https://img.shields.io/badge/lifecycle-archived-red.svg) <a id="archived"></a>
+#### Deprected![](https://img.shields.io/badge/lifecycle-archived-red.svg)Deprecated  <a id="archived"></a>
 
 The development of an archived package is complete, and it has been archived on CRAN and on GitHub.
 
