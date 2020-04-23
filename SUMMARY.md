@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Lifecycle](README.md)
+* [R Function Badges](README.md)
 

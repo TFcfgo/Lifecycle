@@ -1,4 +1,4 @@
-# Lifecycle
+# R Function Badges
 
 ![](https://www.tidyverse.org/lifecycle/images/lifecycle.svg)
 
