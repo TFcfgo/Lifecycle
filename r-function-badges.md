@@ -2,7 +2,7 @@
 
 ![](https://www.tidyverse.org/lifecycle/images/lifecycle.svg)
 
-#### R funciton lifecycles & APIs <a id="api"></a>
+#### R function lifecycles & APIs <a id="api"></a>
 
 This page describes the typical lifecycle of R functions at CFgO. Knowing where a function is in its lifecycle is particularly important for understanding how the API will change over time. The API \(short for application programming interface\) is the set of functions \(and their arguments\) that defines how you interact with the package.
 
