@@ -35,5 +35,5 @@ Along with badge, add `rlang::warning()` to the function to remind all users of 
 
 Functions which contain bugs, serve questionable purposes, contain slow / unexpected / unneccesarily complex code fragments or generate any further kind of unexpected behaviour.
 
-Add a section "Questioning" at the end of the respective function. Use this to explain why the function in its current form is questioned. Additionaly, add an `rlang::warning()` to the function and generate `GitHub Issue` and link to this issue to call attention to this issue.
+Add a section "Questioning" at the end of the respective function. Use this to explain why the function in its current form is questioned. Additionaly, add an `rlang::warning()` to the function and generate `GitHub Issue` and link to GitHub to call attention to this issue.
 
