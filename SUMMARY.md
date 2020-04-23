@@ -1,4 +1,5 @@
 # Table of contents
 
-* [R Function Badges](README.md)
+* [Welcome](README.md)
+* [R Function Badges](r-function-badges.md)
 
