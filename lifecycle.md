@@ -1,4 +1,4 @@
-# Lifecycle
+# Lifecycle Badges
 
 ![CFgO Lifecycle Stages](.gitbook/assets/bild1.png)
 
