@@ -14,7 +14,7 @@ Every R function starts with the experimental badge. Functions marked as experim
 
 #### Stable![](.gitbook/assets/lifecycle-stable.svg) <a id="stable"></a>
 
-In a stable function, we are largely happy with the API, and major changes are unlikely. This means that the API will generally evolve by adding new functions and new arguments; we will avoid removing arguments or changing the meaning of existing arguments.
+In a stable function, we are largely happy and major changes are unlikely. This means that the function will generally evolve by adding new features and new arguments; we will avoid removing arguments or changing the meaning of existing arguments.
 
 Conditions for functions marked as stable:
 
@@ -27,13 +27,13 @@ Conditions for functions marked as stable:
 
 #### Deprected![](.gitbook/assets/lifecycle-deprecated%20%281%29.svg) <a id="archived"></a>
 
-If API breaking change are needed, they will occur gradually. To begin with, the function or argument will be deprecated; it will continue to work but will emit an message informing you of the change. Next, typically after approx. 2 months, the message will be transformed to an error. Once all applications are checked and still work, the function will be removed.
+If breaking changes are needed, they will occur gradually. To begin with, the function will be deprecated; it will continue to work but will emit an message informing you of the change. Next, typically after approx. 2 months, the message will be transformed to an error. Once all applications are checked and still work, the function will be removed.
 
-Along with badge, add `rlang::warning()` to the function to remind all users of this function of the future remove. 
+Along with badge, add `rlang::message()` to the function to remind all users of this function of the future remove. 
 
 #### Questioning![](.gitbook/assets/lifecycle-questioning.svg) <a id="questioning"></a>
 
 Functions which contain bugs, serve questionable purposes, contain slow / unexpected / unneccesarily complex code fragments or generate any further kind of unexpected behaviour.
 
-Add a section "Questioning" at the end of the respective function. Use this to explain why the function in its current form is questioned. Additionaly, add an `rlang::warning()` to the function and generate `GitHub Issue` and link to GitHub to call attention to this issue.
+Add a section `Questioning` at the end of the respective function. Use this to explain why the function in its current form is questioned. Additionaly, add an `rlang::warning()` to the function, generate a `GitHub Issue` and link to GitHub to call attention to this issue.
 
