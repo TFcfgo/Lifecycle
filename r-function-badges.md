@@ -1,6 +1,6 @@
 # R Function Badges
 
-![Typical CFgO Lifecycle](.gitbook/assets/bild1.png)
+![CFgO Lifecycle Stages](.gitbook/assets/bild1.png)
 
 #### CFgO badges for R functions <a id="api"></a>
 
