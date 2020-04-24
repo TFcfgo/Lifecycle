@@ -1,6 +1,6 @@
 # R Function Badges
 
-![](https://www.tidyverse.org/lifecycle/images/lifecycle.svg)
+![](.gitbook/assets/bild1.png)
 
 #### R function lifecycles & APIs <a id="api"></a>
 
@@ -25,7 +25,7 @@ Conditions for functions marked as stable:
 * Example and testing results in 100% Code coverage checked by `covr`
 * No future changes to the core of the function are expected - the function is ready for use in other packages
 
-#### Deprected![](.gitbook/assets/lifecycle-deprecated%20%282%29.svg) <a id="archived"></a>
+#### Deprected![](.gitbook/assets/lifecycle-deprecated%20%281%29.svg) <a id="archived"></a>
 
 If API breaking change are needed, they will occur gradually. To begin with, the function or argument will be deprecated; it will continue to work but will emit an message informing you of the change. Next, typically after approx. 2 months, the message will be transformed to an error. Once all applications are checked and still work, the function will be removed.
 
