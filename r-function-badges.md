@@ -1,4 +1,4 @@
-# R Function Badges
+# Lifecycle
 
 ![CFgO Lifecycle Stages](.gitbook/assets/bild1.png)
 
