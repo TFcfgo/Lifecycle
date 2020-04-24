@@ -1,10 +1,13 @@
+---
+description: >-
+  This page describes the typical lifecycle of R functions at CFgO. Knowing
+  where a function is in its lifecycle is particularly important for
+  understanding how the function will change over time.
+---
+
 # Lifecycle Badges
 
 ![CFgO Lifecycle Stages](.gitbook/assets/bild1.png)
-
-#### CFgO badges for R functions <a id="api"></a>
-
-This page describes the typical lifecycle of R functions at CFgO. Knowing where a function is in its lifecycle is particularly important for understanding how the function will change over time.
 
 #### Experimental![](.gitbook/assets/lifecycle-experimental.svg) <a id="experimental"></a>
 
