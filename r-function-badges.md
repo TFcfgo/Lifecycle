@@ -2,15 +2,15 @@
 
 ![](.gitbook/assets/bild1.png)
 
-#### R function lifecycles & APIs <a id="api"></a>
+#### CFgO badges for R functions <a id="api"></a>
 
-This page describes the typical lifecycle of R functions at CFgO. Knowing where a function is in its lifecycle is particularly important for understanding how the API will change over time. The API \(short for application programming interface\) is the set of functions \(and their arguments\) that defines how you interact with the package.
+This page describes the typical lifecycle of R functions at CFgO. Knowing where a function is in its lifecycle is particularly important for understanding how the function will change over time.
 
 #### Experimental![](.gitbook/assets/lifecycle-experimental.svg) <a id="experimental"></a>
 
-An experimental function is in the very early stages of development. The API will be changing frequently as we rapidly iterate and explore variations in search of the best fit. Experimental functions are set up quickly without finished testing and documenting frameworks.
+An experimental function is in the very early stages of development. The function will be changing frequently as we rapidly iterate and explore variations in search of the best fit. Experimental functions are set up quickly without finished testing and documenting frameworks.
 
-Every R function starts with the experimental badge.
+Every R function starts with the experimental badge. Functions marked as experimental lack of documentation, example cases, unit tests or all of those. Thus, using such functions in reports and shiny apps should be avoided!
 
 #### Stable![](.gitbook/assets/lifecycle-stable.svg) <a id="stable"></a>
 
